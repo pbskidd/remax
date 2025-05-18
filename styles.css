@@ -1,0 +1,642 @@
+/* Base Styles */
+:root {
+    --primary-color: #a39a8e; /* Ecuadane's earthy taupe */
+    --secondary-color: #1e2736; /* Ecuadane's navy */
+    --accent-color: #d42e2e; /* RE/MAX red */
+    --light-color: #f5f5f5;
+    --dark-color: #333333;
+    --text-color: #333333;
+    --background-color: #ffffff;
+    --border-radius: 4px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    color: white;
+    border: 2px solid var(--accent-color);
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: var(--accent-color);
+}
+
+.btn-secondary {
+    background-color: var(--primary-color);
+    color: white;
+    border: 2px solid var(--primary-color);
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    z-index: 1000;
+    padding: 15px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 180px 0 100px;
+    margin-top: 80px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Value Proposition Section */
+.value-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.value-item {
+    background-color: var(--light-color);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+/* Ecuadane Solution Section */
+.ecuadane-solution {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.solution-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.solution-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+.solution-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow);
+}
+
+/* Product Options Section */
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.option-item {
+    background-color: var(--light-color);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    transition: var(--transition);
+}
+
+.option-item:hover {
+    transform: translateY(-5px);
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-bottom: 5px;
+}
+
+.minimum {
+    font-size: 0.9rem;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+}
+
+/* Custom Weave Section */
+.custom-weave {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.custom-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-color:rgb(85 90 126 / 20%);
+    padding: 30px;
+    border-radius: var(--border-radius);
+}
+
+/* Customization Showcase Section */
+.showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.showcase-item {
+    padding: 30px;
+    border: 1px solid var(--primary-color);
+    border-radius: var(--border-radius);
+}
+
+/* Give More Program Section */
+.give-more {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/give-more-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.give-more-content {
+    display: flex;
+    justify-content: center;
+}
+
+.give-more-text {
+    max-width: 800px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: var(--light-color);
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+/* Contact Section */
+.contact {
+    background-color: var(--light-color);
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-item {
+    margin-bottom: 30px;
+}
+
+.info-item h3 {
+    color: var(--accent-color);
+}
+
+.contact-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    font-family: 'Manrope', sans-serif;
+}
+
+.form-note {
+    font-size: 0.9rem;
+    color: var(--dark-color);
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 50px 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.footer-logo img {
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-links ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links ul li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: white;
+}
+
+.footer-contact a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-logo, .footer-links, .footer-contact {
+        margin-bottom: 20px;
+    }
+    
+    .footer-links ul {
+        justify-content: center;
+    }
+    
+    nav ul {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        padding: 60px 0;
+    }
+    
+    .hero {
+        padding: 150px 0 80px;
+    }
+}
+
+
+.hero {
+  position: relative;
+  /* set the background image */
+  background: url('couple_with_blanket.png') no-repeat center center;
+  background-size: cover;
+  /* ensure it fills the viewport height (optional) */
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* pseudo-element for dark overlay */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* 50% black */
+  pointer-events: none;
+}
+
+/* make sure your hero content sits above the overlay */
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  color: #fff; /* ensure text is legible */
+  text-align: center;
+}
+
+/* Responsive tweaks (optional) */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 40vh;
+    background-position: top center;
+  }
+  .hero-content {
+    padding: 1rem;
+  }
+}
+
+
+.ecuadane-solution {
+  position: relative;
+  /* set the background image */
+  background: url('ruffles2.png') no-repeat center center;
+  background-size: cover;
+  /* ensure it fills the viewport height (optional) */
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* pseudo-element for dark overlay */
+.ecuadane-solution::backdrop {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* 50% black */
+  pointer-events: none;
+}
+
+.contact-wrap {
+  position: relative;
+  /* set the background image */
+  background: url('wrapped_up2.png') no-repeat center center;
+  background-size: cover;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.option-item img {
+  display: block;       /* ensures no inline whitespace */
+  width: 100%;          /* scale to container width */
+  height: auto;         /* maintain aspect ratio */
+  margin-top: 1rem;     /* spacing from existing content */
+  border-radius: 0.5rem;/* optional: soften the corners */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* optional styling */
+}
+
+.maint {
+  /* Remove bottom margin */
+  margin-bottom: 0;
+}
+.subt {
+  /* Center the element horizontally */
+  text-align: center;
+  margin-bottom: 30px;
+  color: #a39a8e;
+}
+
+.showcase-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 
+}
+
+/* 1) Make sure each solution-item can be a positioning context */
+.solution-item {
+  position: relative;
+  overflow: visible; /* ensure arrows aren’t clipped */
+}
+
+/* 2) Desktop: arrows pointing right, 30×90px, vertically centered */
+@media (min-width: 768px) {
+  .solution-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -15px;      /* half the arrow’s width, so it just touches */
+    width: 30px;
+    height: 90px;
+    background: url('arrow2.svg') no-repeat center center;
+    background-size: contain;
+    transform: translateY(-50%);
+    transform-origin: center;
+    pointer-events: none;
+    z-index: 1;
+  }
+}
+
+/* 3) Mobile: arrows pointing down (rotate 90°), same SVG, horizontally centered */
+@media (max-width: 767px) {
+  .solution-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;     /* half the arrow’s *rotated* height, so it touches */
+    left: 50%;
+    width: 30px;
+    height: 90px;
+    background: url('/path/to/arrow.svg') no-repeat center center;
+    background-size: contain;
+    transform: translateX(-50%) rotate(90deg);
+    transform-origin: center;
+    pointer-events: none;
+    z-index: 1;
+  }
+}
+
+.custom-weave{
+    background-image:
+    linear-gradient(rgba(1, 22, 43, 0.95), rgba(0, 22, 43, 0.8)),
+    url('sky.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.give-more{
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('siblings.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+

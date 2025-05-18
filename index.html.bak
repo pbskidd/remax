@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecuadane | Luxury Closing Gifts for RE/MAX Agents</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="ecuadane-logo.png" alt="Ecuadane Logo">
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#value-proposition">Why Ecuadane?</a></li>
+                        <li><a href="#options">RE/MAX Exclusives</a></li>
+                        <li><a href="#give-more">Miracle Giving Program</a></li>
+                        <li><a href="#contact" class="btn-primary">Order Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Luxury Closing Gifts That Create Lasting Connections</h1>
+                <p>Handcrafted blankets that keep your name in clients' homes for years to come. Transform an ordinary closing into the beginning of a lifelong relationship built on warmth, comfort, and thoughtfulness.</p>
+                <a href="#contact" class="btn-primary">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="value-proposition" class="value-proposition">
+        <div class="container">
+            <h2>The Challenge & The Opportunity</h2>
+            <div class="value-grid">
+                <div class="value-item">
+                    <h3>Lasting Presence</h3>
+                    <p>Rather than being quickly forgotten like wine or gift cards, an Ecuadane blanket becomes a daily fixture—draped over the sofa or wrapped around shoulders—keeping your brand front and center.</p>
+                </div>
+                <div class="value-item">
+                    <h3>Emotional Connection</h3>
+                    <p>When clients wrap themselves in your blanket, they feel the comfort, security, and trust you provided—turning a simple gift into a lasting emotional reminder with its soft, inviting texture.</p>
+                </div>
+                <div class="value-item">
+                    <h3>Referral Generator</h3>
+                    <p>An Ecuadane blanket in your clients’ home sparks conversations that mention you—turning every compliment into effortless referrals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ecuadane-solution">
+        <div class="container">
+            <h2>The Ecuadane Solution</h2>
+            <div class="solution-grid">
+                <div class="solution-item">
+                    <h3>Uncompromising Quality</h3>
+<p>Handcrafted by Ecuadorian artisans from premium sustainable materials and backed by a lifetime guarantee for lasting beauty and durability.</p>
+                </div>
+                <div class="solution-item">
+                    <h3>Personalized Branding</h3>
+<p>Customize with your RE/MAX logo, agency name, or tagline on a tasteful leather label for a professional finish.</p>
+
+                </div>
+                <div class="solution-item">
+                    <h3>Gratitude Made Tangible</h3>
+<p>Express genuine thanks with a warm, thoughtful gift that shows you value the relationship beyond the transaction.</p>
+
+                </div>
+                <div class="solution-item">
+                    <h3>Your Referral Magnet</h3>
+<p>These blankets live in the heart of the home, sparking guest conversations that naturally point back to you—turning cozy moments into ongoing referrals.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="options" class="product-options">
+        <div class="container">
+            <h2>RE/MAX Exclusive Options</h2>
+            <div class="options-grid">
+                <div class="option-item">
+                    <h3>Ecuadane Luxury Blankets</h3>
+                    <div class="price">$74 each</div>
+                    <div class="minimum">No minimum order</div>
+                    <p>Select from our collection of ready-to-ship, luxury Ecuadane blankets. Always in stock, so even last-minute closing gifts can be extraordinary. These premium throws feature our signature patterns and exceptional quality.</p>
+					<img src="opt1.png" alt="Ecuadane Unifier Throw Blanket" width="80%">
+                </div>
+                <div class="option-item">
+                    <h3>Add Your Custom Label</h3>
+                    <div class="price">$85 each</div>
+                    <div class="minimum">10 unit minimum</div>
+                    <p>Tastefully add your team logo, name, or a short message, engraved on a genuine leather label for a refined, custom look. Transform our standard blankets into branded gifts that remind clients of you.</p>
+					<img src="Opt2.png" alt="Custom Personalized Leather Patch" width="80%">
+                </div>
+                <div class="option-item">
+                    <h3>RE/MAX Co-Branded Blankets</h3>
+                    <div class="price">$85 each</div>
+                    <div class="minimum">25 unit minimum</div>
+                    <p>Exclusive RE/MAX edition blankets blend the iconic RE/MAX logo with Ecuadane’s artisan craftsmanship, weaving your branding directly into each luxurious blanket and perfecting with your label.</p>
+					<img src="opt3c.png" alt="REMAX bold branded blanket in cream" width="80%">
+                </div>
+                <div class="option-item">
+                   <h3>Your Very Own Vision</h3>
+<div class="price">$100 each</div>
+<div class="minimum">100 unit minimum</div>
+<p>Collaborate with our designers to bring your unique vision to life—custom colors, patterns, and story labels to tell your brand’s story, creating a treasured keepsake your clients will proudly display.</p>
+<img src="opt4.png" alt="Your custom designed blanket, baby's room" width="80%">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="custom-weave">
+        <div class="container">
+            <h2>Why Choose Our Custom Weave Option?</h2>
+            <div class="custom-grid">
+                <div class="custom-item">
+                    <h3>Ultimate Exclusivity</h3>
+<p>Create a one-of-a-kind blanket for you and your team. Stand apart with a unique design that showcases your personal or team brand, ensuring your closing gift is truly exclusive and unmatched by competitors.</p>
+
+                </div>
+                <div class="custom-item">
+                    <h3>Complete Customization</h3>
+                    <p>Select the exact colors, patterns, and motifs that reflect your brand’s identity. Our seasoned design team partners with you to transform your ideas into a stunning woven pattern that brings your brand story to life.</p>
+                </div>
+                <div class="custom-item">
+                    <h3>Invest In Your Brand</h3>
+                    <p>An amazing, quality product for just $100. Despite the exceptional level of customization, these blankets remain an affordable luxury, providing outstanding value for a completely bespoke product.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customization-showcase">
+        <div class="container">
+            <h2>Customization Showcase</h2>
+            <div class="showcase-grid">
+                <div class="showcase-item">
+                    <h3>Handcrafted Leather Labels</h3>
+                    <p>High-quality leather tags engraved with your logo, team name, or a personal message like "With Gratitude, Jane Smith". Each label is meticulously crafted to ensure clean, precise engraving that will maintain its appearance for years.</p><br>
+					<img src="Custom Patch.png" alt="A custom leather patch with real estate agent name, team, and phone number" width="80%">
+					
+                </div>
+                <div class="showcase-item">
+                    <h3>Inspiring Design Ideas</h3>
+                    <p>From incorporating RE/MAX's iconic logo to adding subtle touches like weaving in a skyline or local motif. Our design team can help you create a blanket that resonates with your specific market, incorporating recognizable local elements.</p>
+					<img src="c3.png" alt="A gentle feminie Asian floral patterned blanket" width="80%">
+					
+                </div>
+                <div class="showcase-item">
+                    <h3>Gift-Ready Packaging</h3>
+                    <p>Elegant packaging options and personalized notes or branded thank-you cards. Premium presentation enhances the gifting experience, making the moment of receiving the blanket special and memorable.</p><br>
+					<img src="wrap2.png" alt="REMAX vividly branded giftbox" width="80%">
+					
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="give-more" class="give-more">
+        <div class="container">
+            <h2 class="maint">Ecuadane Miracle Giving Program</h2>
+			<h3 class="subt">Do Good With Every Closing Gift</h3>
+            <div class="give-more-content">
+                <div class="give-more-text">
+                    
+					
+					<h3>1-for-1 Donation Matching</h3>
+                    <p>For every blanket you purchase, we donate a full-priced blanket to a child in the Children's Miracle Network. That's right: one blanket for you, one gifted to provide comfort and security to a deserving child.</p>
+					
+					<h3>Closing Gifts ...That Give Back</h3>
+                    <p>Partner with Ecuadane to support Children's Miracle Network Hospitals with every blanket purchase. As a RE/MAX agent, you already understand the importance of giving back to the community. Our Give More program aligns perfectly with RE/MAX's longstanding commitment to Children's Miracle Network Hospitals.</p>
+                    
+                    <h3>(More Than) Double Your Impact</h3>
+                    <p>Regardless of your RE/MAX discount, this donation is based on the full $125 retail value of the gift. It's  more than a one-for-one deal—it's our way of standing beside you in the incredible work you do, both for your clients and your community.</p>
+                    
+                    <a href="give-more.html" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Real Estate Professionals Are Saying</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <p>"Since I started giving Ecuadane blankets as closing gifts, my referral rate has increased by 30%. Clients constantly tell me how their friends ask about the beautiful throw on their couch."</p>
+                    <div class="testimonial-author">Daniel Berger, RE/MAX Owner/Agent (Westchester, NY)</div>
+                </div>
+                <div class="testimonial">
+                    <p>"These blankets have transformed my client relationships. The quality is exceptional, and the branded leather tag keeps my name visible without being tacky. Worth every penny."</p>
+                    <div class="testimonial-author">Will Suarez, Broker (New York City)</div>
+                </div>
+                <div class="testimonial">
+                    <p>"I've tried everything from wine to gift baskets, but nothing has generated the positive feedback and referrals like these blankets. They're my secret weapon for client retention."</p>
+                    <div class="testimonial-author">Bob Murphy, Realtor (Cheshire, CT)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Invest in Relationships. Invest in Growth.</h2>
+            <div class="contact-grid">
+                <div class="contact-wrap">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <br><br>
+                        <h3>9+ Years of Excellence</h3>
+                        <p>A reputation for quality</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>100% Satisfaction</h3>
+                        <p>Lifetime guarantee on all blankets</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>$74 Starting Price</h3>
+                        <p>Affordable luxury with high ROI</p>
+                    </div>
+                </div>
+                </div>
+                <div class="contact-form">
+                    <form id="orderForm" action="https://formspree.io/f/hello@ecuadane.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">Product Interest</label>
+                            <select id="interest" name="interest" required>
+                                <option value="">Select an option</option>
+                                <option value="Standard Line">Equadane Luxury Throw Blankets ($74ea.)</option>
+                                <option value="Custom Leather Label">Custom Leather Labeled Blankets ($85ea.)</option>
+                                <option value="RE/MAX Co-Branded">RE/MAX Branded Blankets w Custom Label ($85ea.)</option>
+                                <option value="Fully Custom Weave">Fully Custom Designed Weave w you Label ($100ea.)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn-primary">Order Now</button>
+                        </div>
+                        <p class="form-note">A representative will reach out within one business day.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="ecuadane-logo.png" alt="Ecuadane Logo">
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#value-proposition">Why Ecuadane</a></li>
+                        <li><a href="#options">Product Options</a></li>
+                        <li><a href="#give-more">Miracle Giving Program</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p>Contact: <a href="mailto:hello@ecuadane.com">hello@ecuadane.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ecuadane. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
