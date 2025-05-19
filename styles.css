@@ -376,7 +376,7 @@ nav ul li a {
 .form-note {
     font-size: 0.9rem;
     color: var(--dark-color);
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
 }
 
@@ -577,7 +577,7 @@ footer {
     height: auto;
     margin-top: 1rem;
     border-radius: 0.5rem;
-    box-shadow: 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* optional styling */
 }
 
 /* 1) Make sure each solution-item can be a positioning context */
