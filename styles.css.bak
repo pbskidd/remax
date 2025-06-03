@@ -542,7 +542,7 @@ footer {
   position: relative;
   /* set the background image */
   background: url('./img/wrapped_up2.png') no-repeat center center;
-
+  background-size: cover;
   min-height: 60vh;
   display: flex;
   align-items: center;
