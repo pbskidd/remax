@@ -771,3 +771,16 @@ footer {
         gap: 20px;                    /* keep some breathing room */
     }
 }
+
+/* ---- CONTACT FORM FULL-WIDTH PATCH ---- */
+.google-form,          /* wrapper */
+.google-form iframe {  /* actual form */
+    width: 100% !important;   /* fill whatever space is available   */
+    max-width: 100% !important;/* remove the 720 px ceiling          */
+}
+
+/* keep it readable on phones */
+@media (max-width: 600px){
+    .google-form { margin: 0; }           /* cancel the auto-centering gap */
+    .google-form iframe{ height: 1050px;} /* keep your custom height rule */
+}
