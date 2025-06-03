@@ -749,3 +749,13 @@ footer {
 @media (max-width: 600px){
   .google-form iframe{height:1050px;}      /* extra height for mobile keyboards */
 }
+
+
+.contact-wrap{
+	max-width: 100%;
+}
+.contact-form{
+	max-width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
