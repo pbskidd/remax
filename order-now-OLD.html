@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miracle Giving Program | Ecuadane for RE/MAX Agents</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./img/ecuadane-logo.png" alt="Ecuadane Logo">
+                    </a>
+                </div>
+				<button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+					<span class="hamburger"></span>
+				</button>				
+                <nav>
+                    <ul>
+						<li class="li-shift, mobile-only"><a href="index.html">Home</a></li>
+                        <li class="li-shift"><a href="why-ecuadane.html">Why Ecuadane</a></li>
+                        <li class="li-shift"><a href="custom-options.html">Product Options</a></li>
+                        <li class="li-shift"><a href="give-more.html">Miracle Giving Program</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="contact" class="contact, bump_down">
+        <div class="container">
+            <h2>Invest in Relationships. Invest in Growth.</h2>
+            <div class="contact-grid">
+                <div class="contact-wrap">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <br><br>
+                        <h3>9+ Years of Excellence</h3>
+                        <p>A reputation for quality</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>100% Satisfaction</h3>
+                        <p>Lifetime guarantee on all blankets</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>$74 Starting Price</h3>
+                        <p>Affordable luxury with high ROI</p>
+                    </div>
+                </div>
+                </div>
+                <div class="contact-form">
+                    <form id="orderForm" action="https://formspree.io/f/hello@ecuadane.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">Product Interest</label>
+                            <select id="interest" name="interest" required>
+                                <option value="">Select an option</option>
+                                <option value="Standard Line">Equadane Luxury Throw Blankets ($74ea.)</option>
+                                <option value="Custom Leather Label">Custom Leather Labeled Blankets ($85ea.)</option>
+                                <option value="RE/MAX Co-Branded">RE/MAX Branded Blankets w Custom Label ($85ea.)</option>
+                                <option value="Fully Custom Weave">Fully Custom Designed Weave & Label ($100ea.)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn-primary">Order Now</button>
+                        </div>
+                        <p class="form-note">A representative will reach out within one business day.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	    <section class="testimonials">
+        <div class="container">
+            <h2>What Real Estate Professionals Are Saying</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <p>"I've tried everything from wine to gift baskets, but nothing has generated the positive feedback and referrals like these blankets. They're my secret weapon for client retention."</p>
+                    <div class="testimonial-author">Daniel Berger, RE/MAX Owner/Agent (Westchester, NY)</div>
+                </div>
+                <div class="testimonial">
+                    <p>"These blankets have transformed my client relationships. The quality is exceptional, and the branded leather tag keeps my name visible without being tacky. Worth every penny."</p>
+                    <div class="testimonial-author">Will Suarez, Broker (New York City)</div>
+                </div>
+                <div class="testimonial">
+                    <p>"Since I started giving Ecuadane blankets as closing gifts, my referral rate has increased by 30%. Clients constantly tell me how their friends ask about the beautiful throw on their couch."</p>
+                    <div class="testimonial-author">Bob Murphy, Realtor (Cheshire, CT)</div>
+                </div>
+            </div>
+			<p></p>
+			<a href="#contact" class="btn-primary">Order Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./img/ecuadane-logo.png" alt="Ecuadane Logo">
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="why-ecuadane.html">Why Ecuadane</a></li>
+                        <li><a href="custom-options.html">Product Options</a></li>
+                        <li><a href="give-more.html">Miracle Giving Program</a></li>
+                        <li><a href="order-now.html">Ordering</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p>Contact: <a href="mailto:hello@ecuadane.com">hello@ecuadane.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ecuadane. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

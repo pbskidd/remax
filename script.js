@@ -54,4 +54,23 @@ document.addEventListener('DOMContentLoaded', function() {
             header.classList.remove('active');
         }
     });
+	
+	
+	// Mobile navigation toggle
+const navToggle = document.getElementById('nav-toggle');
+const navPanel  = document.querySelector('header nav');
+
+navToggle.addEventListener('click', () => {
+  navToggle.classList.toggle('active'); // hamburger → X
+  navPanel.classList.toggle('open');    // slide panel
+});
+
+// Close menu when a link is clicked (optional but nice UX)
+navPanel.querySelectorAll('a').forEach(link =>
+  link.addEventListener('click', () => {
+    navToggle.classList.remove('active');
+    navPanel.classList.remove('open');
+  })
+);
+	
 });

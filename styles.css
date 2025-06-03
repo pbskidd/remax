@@ -279,7 +279,7 @@ nav ul li a {
 
 /* Give More Program Section */
 .give-more {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/give-more-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('siblings.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -376,8 +376,8 @@ nav ul li a {
 .form-note {
     font-size: 0.9rem;
     color: var(--dark-color);
-    text-align: left;
     margin-top: 20px;
+    text-align: left;
 }
 
 /* Footer Styles */
@@ -471,7 +471,7 @@ footer {
 .hero {
   position: relative;
   /* set the background image */
-  background: url('couple_with_blanket.png') no-repeat center center;
+  background: url('./img/couple_with_blanket.png') no-repeat center center;
   background-size: cover;
   /* ensure it fills the viewport height (optional) */
   min-height: 60vh;
@@ -517,7 +517,7 @@ footer {
 .ecuadane-solution {
   position: relative;
   /* set the background image */
-  background: url('ruffles2.png') no-repeat center center;
+  background: url('./img/ruffles2.png') no-repeat center center;
   background-size: cover;
   /* ensure it fills the viewport height (optional) */
   min-height: 60vh;
@@ -542,7 +542,7 @@ footer {
 .contact-wrap {
   position: relative;
   /* set the background image */
-  background: url('wrapped_up2.png') no-repeat center center;
+  background: url('./img/wrapped_up2.png') no-repeat center center;
   background-size: cover;
   min-height: 60vh;
   display: flex;
@@ -595,7 +595,7 @@ footer {
     right: -15px;      /* half the arrow’s width, so it just touches */
     width: 30px;
     height: 90px;
-    background: url('arrow2.svg') no-repeat center center;
+    background: url('./img/arrow2.svg') no-repeat center center;
     background-size: contain;
     transform: translateY(-50%);
     transform-origin: center;
@@ -613,7 +613,7 @@ footer {
     left: 50%;
     width: 30px;
     height: 90px;
-    background: url('/path/to/arrow.svg') no-repeat center center;
+    background: url('./img/arrow.svg') no-repeat center center;
     background-size: contain;
     transform: translateX(-50%) rotate(90deg);
     transform-origin: center;
@@ -625,7 +625,7 @@ footer {
 .custom-weave{
     background-image:
     linear-gradient(rgba(1, 22, 43, 0.95), rgba(0, 22, 43, 0.8)),
-    url('sky.png');
+    url('./img/sky.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -634,9 +634,118 @@ footer {
 .give-more{
     background-image:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('siblings.png');
+    url('./img/siblings.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
+.li-shift{
+	margin-top: 15px;
+}
+
+.teaser-header{
+	text-align: center;
+    margin-bottom: 15px;
+}
+
+.teaser-header3{
+	text-align: center;
+    margin-bottom: 60px;
+}
+
+.a_red{
+    color: #d42e2e;
+    text-decoration: none;
+
+}
+
+.sec_small{
+	    padding: 0px;
+}
+
+.customization-showcase{
+	padding: 40px 0;
+}
+
+/* ---------- MOBILE NAV ---------- */
+.nav-toggle {
+  display: none;               /* hidden on desktop */
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;               /* above the sliding panel */
+}
+
+/* three lines */
+.nav-toggle .hamburger,
+.nav-toggle .hamburger::before,
+.nav-toggle .hamburger::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0;
+  background: var(--dark-color);
+  transition: var(--transition);
+  border-radius: 2px;
+}
+
+/* animate into an “X” when open */
+.nav-toggle.active .hamburger {
+  background: transparent;
+}
+.nav-toggle.active .hamburger::before {
+  transform: translateY(8px) rotate(45deg);
+}
+.nav-toggle.active .hamburger::after {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* slide-in panel */
+@media (max-width: 768px) {
+  .nav-toggle { display: block; }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    max-width: 300px;
+    height: 100vh;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    padding-top: 100px;        /* clears the header height */
+    transform: translateX(100%);
+    transition: var(--transition);
+  }
+  header nav.open {            /* toggled class from JS */
+    transform: translateX(0);
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;             /* override the earlier 'display:none' */
+  }
+  header nav ul li {
+    margin: 20px 30px;
+  }
+}
+
+.bump_down{
+    margin-top: 30px;
+}
+
+/* default (desktop) – hide it */
+.mobile-only { display: none; }
+
+/* reveal only when the hamburger exists */
+@media (max-width: 768px) {        /* same breakpoint as the menu */
+  .mobile-only { display: block; }
+}
+
+.google-form {max-width: 720px; margin: 0 auto;}
+@media (max-width: 600px){
+  .google-form iframe{height:1050px;}      /* extra height for mobile keyboards */
+}
