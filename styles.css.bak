@@ -462,7 +462,7 @@ footer {
     }
     
     .hero {
-        padding: 150px 0 80px;
+        padding: 20px 0 20px;
     }
 }
 
@@ -784,4 +784,14 @@ footer {
 @media (max-width: 600px){
     .google-form { margin: 0; }           /* cancel the auto-centering gap */
     .google-form iframe{ height: 1050px;} /* keep your custom height rule */
+}
+
+.explanation-content{
+	max-width: 1000px;
+	 margin: 0 auto;
+}
+
+.impact-grid{
+		max-width: 1000px;
+	 margin: 0 auto;
 }

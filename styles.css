@@ -785,3 +785,13 @@ footer {
     .google-form { margin: 0; }           /* cancel the auto-centering gap */
     .google-form iframe{ height: 1050px;} /* keep your custom height rule */
 }
+
+.explanation-content{
+	max-width: 1000px;
+	 margin: 0 auto;
+}
+
+.impact-grid{
+	max-width: 1000px;
+	 margin: 0 auto;
+}
