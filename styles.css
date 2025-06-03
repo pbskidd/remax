@@ -349,7 +349,6 @@ nav ul li a {
 
 .contact-form {
     background-color: white;
-    padding: 30px;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
 }
@@ -750,7 +749,6 @@ footer {
   .google-form iframe{height:1050px;}      /* extra height for mobile keyboards */
 }
 
-
 .contact-wrap{
 	max-width: 100%;
 }
@@ -758,4 +756,18 @@ footer {
 	max-width: 100%;
 	margin-left: 0px;
 	margin-right: 0px;
+}
+
+.google-form iframe{
+    width:100%;          /* stretch to the container’s width */
+    max-width:100%;      /* never exceed it */
+    height:1050px;       /* keep the custom height you already set */
+}
+
+/* 2. Stack testimonials on small screens */
+@media (max-width: 600px){
+    .testimonials-grid{
+        grid-template-columns: 1fr;   /* one card per row */
+        gap: 20px;                    /* keep some breathing room */
+    }
 }
