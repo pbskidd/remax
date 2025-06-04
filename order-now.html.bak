@@ -59,7 +59,7 @@
                 <div class="contact-form">
 				<div class="google-form">
 				
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfwE4a1ciPQSzVm1fMW9wowgRnkpqR0I5wPDMu1qDOoCsZt4g/viewform?embedded=true" width="640" height="790" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfwE4a1ciPQSzVm1fMW9wowgRnkpqR0I5wPDMu1qDOoCsZt4g/viewform?embedded=true" height="790" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
 				</div>
             </div>
@@ -84,7 +84,7 @@
                 </div>
             </div>
 			<p></p>
-			<a href="#contact" class="btn-primary">Order Now</a>
+			<a href="#contact" class="btn-primary">Inquire Now</a>
         </div>
     </section>
 
